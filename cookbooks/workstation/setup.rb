@@ -9,6 +9,6 @@ end
 file '/etc/motd' do
 	content 'This server is the property of thoughtbend'
 	action :create
-	mode 'root'
+	owner 'root'
 	group 'root'
 end
